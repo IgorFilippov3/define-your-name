@@ -1,5 +1,5 @@
 function mainCtrl($scope, $http) {
-    $http.get('../model/data.json').success(function(data){
+    $http.get('model/data.json').success(function(data){
       $scope.names = data;
     })
     

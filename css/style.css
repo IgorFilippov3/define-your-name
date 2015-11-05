@@ -1,0 +1,48 @@
+.container {
+	width: 100%;
+	text-align: center;
+	margin-top: 10%;
+	font-family: 'Open Sans', sans-serif;
+}
+img {
+	width: 265px;
+	height: 310px;
+	display: inline;
+}
+a,p {	
+	margin: 20px 0 20px 0;	
+}
+p {
+	display: block;	
+	height: 20px;
+}
+input {   
+    font-size: 20px;
+	margin-top: 10px;
+}
+span {
+	color: red;
+	font-style: italic;
+	margin-top: 8px;
+	display: block;
+}
+form {
+	height: 60px;
+}
+a {
+  color: #fff;
+  text-decoration: none;  
+  background: rgb(212,75,56); 
+  padding: .7em 1.5em; 
+  outline: none; 
+  display: inline-block;
+} 
+a:hover { background: rgb(232,95,76); } 
+a:active { background: rgb(152,15,0); } 
+
+b {
+   font-weight: bold;
+   font-size: 1.2em;
+}
+
+

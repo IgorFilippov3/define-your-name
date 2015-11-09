@@ -3,7 +3,7 @@ function mainCtrl($scope, $http) {
       $scope.names = data;
     })
     
-    $scope.totalName = "Write the first <b>four</b> digits of the PIN code of your credit card.";
+    $scope.totalName = "Write the last <b>four</b> digits of your bank card.";
     $scope.spanError = true;
 
     $scope.validate = function() {
